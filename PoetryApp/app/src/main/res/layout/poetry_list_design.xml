@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/light_gray"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/poetryPoetName"
+        android:textStyle="bold"
+      android:textColor="@color/black"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:gravity="center_vertical"
+        android:textSize="19sp"
+        android:minHeight="30dp"
+        android:text="Kabir_Das"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        android:id="@+id/poetryPoetryData"
+        android:minHeight="60dp"
+        android:text="
+मेरा मुझ में कुछ नहीं, जो कुछ है सो तेरा।
+
+तेरा तुझकौं सौंपता, क्या लागै है मेरा॥ "/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/poetryPoetryDateAndTime"
+        android:text="29-Apr-2023"
+        android:padding="5dp"
+        android:gravity="center_vertical|right"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:minHeight="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:id="@+id/update_Btn"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:text="Update"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_height="50dp"
+            android:id="@+id/delete_Btn"
+            android:textAllCaps="false"
+
+            android:text="Delete"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

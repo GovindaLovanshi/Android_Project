@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@android:drawable/checkbox_on_background" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_height="wrap_content"
+        android:text="CONGRUTULATION FOR SHOWING UP TODAY" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:text="How is the Android App dev Journy Going " />
+
+
+    <Button
+        android:id="@+id/btnFeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF0000"
+        android:layout_margin="10dp"
+        android:text="SEND FEEDBACK" />
+    <Button
+
+
+        android:id="@+id/btnYes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#454B1B"
+        android:layout_margin="10dp"
+        android:text="TOO GOOD" />
+
+</LinearLayout>
