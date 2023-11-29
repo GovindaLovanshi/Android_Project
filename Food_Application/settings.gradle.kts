@@ -10,8 +10,10 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-    }
+
+        }
 }
 
 rootProject.name = "Food_Application"
 include(":app")
+

@@ -4,22 +4,26 @@
     <item
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/homeFragment"
         android:title="Home" />
     <item
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/cartFragment"
         android:title="Cart" />
     <item
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/searchFragment"
         android:title="Search" />
     <item
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/profileFragment"
         android:title="Profile" />
     <item
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:title="History"
-        android:icon="@android:"/>
+        android:title="@string/History"
+        android:id="History" />
 </menu>
